@@ -14,7 +14,8 @@ public class Jan10Quiz {
 		 */
 		int num1 = 84;
 		int num2 = 35;
-		System.out.println("Expected Output :" + (num1+num2));
+		int sum = num1+num2;
+		System.out.println("Expected Output :" + sum);
 		
 	}
 
@@ -29,7 +30,8 @@ public class Jan10Quiz {
 		 */
 		int num1 = 50;
 		int num2 = 3;
-		System.out.println("Expected Output : " + (num1/num2));
+		int result = num1/num2;
+		System.out.println("Expected Output :" + result);
 		
 	}
 	
@@ -39,8 +41,7 @@ public class Jan10Quiz {
 			Test Data:
 			Input first number: 25
 			Input second number: 5
-			Expected Output :
-			25 x 5 = 125
+			Expected Output : 25 x 5 = 125
 		 */
 		
 		Scanner input = new Scanner(System.in);
@@ -48,7 +49,9 @@ public class Jan10Quiz {
 		int firstNumber = input.nextInt();
 		System.out.println("Input second number: ");
 		int secondNumber = input.nextInt();
-		System.out.println("Expected Output : " + (firstNumber*secondNumber));
+		int product = firstNumber*secondNumber;
+		System.out.println("Expected Output : " +firstNumber + " X " +secondNumber + " = " + product);
+		
 		input.close();
 		
 		
